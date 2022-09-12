@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/calmdarya"
+    tools:context=".IniciarSesion">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:text="@string/textView_IniSes_Instrucciones"
+        android:textColor="@color/white_Wannabe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_IniSes_YaCuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="@string/textView_IniSes_Información"
+        android:textColor="@color/white_Wannabe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_IniSes_IniciarSesion"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <Button
+        android:id="@+id/btn_IniSes_Cancelar"
+        android:layout_width="150dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="28dp"
+        android:text="@string/boton_IniSes_Cancelar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        tools:text="@string/boton_IniSes_Cancelar" />
+
+    <Button
+        android:id="@+id/btn_IniSes_IniciarSesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/boton_IniSes_IniciarSesion"
+        app:layout_constraintEnd_toStartOf="@+id/btn_IniSes_Cancelar"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        tools:text="@string/boton_IniSes_IniciarSesion" />
+
+    <EditText
+        android:id="@+id/editText_IniSes_Contraseña"
+        android:layout_width="323dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/rounded_corners_edittextview_login"
+        android:ems="10"
+        android:hint="@string/textView_IniSes_Contraseña"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:textColor="@color/black_SmoothCriminal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_IniSes_CorreoElectronico"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="373dp" />
+
+    <EditText
+        android:id="@+id/editText_IniSes_CorreoElectronico"
+        android:layout_width="323dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="184dp"
+        android:background="@drawable/rounded_corners_edittextview_login"
+        android:ems="10"
+        android:hint="@string/textView_IniSes_Correo"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp"
+        android:textColor="@color/black_SmoothCriminal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

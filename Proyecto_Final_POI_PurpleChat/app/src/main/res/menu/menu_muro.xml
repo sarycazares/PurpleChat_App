@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/opc_Muro_Publicacion"
+        android:icon="@android:drawable/stat_notify_chat"
+        android:title="Publicación" />
+    <item
+        android:id="@+id/opc_Muro_Imagen"
+        android:icon="@drawable/camera_solid_24"
+        android:title="Imagen" />
+    <item
+        android:id="@+id/opc_Muro_Archivo"
+        android:icon="@android:drawable/stat_sys_upload"
+        android:title="Archivo" />
+    <item
+        android:id="@+id/opc_Muro_Ubicacion"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="Ubicación" />
+</menu>

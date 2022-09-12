@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "240320695950",
+    "project_id": "purple-chat-41be6",
+    "storage_bucket": "purple-chat-41be6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240320695950:android:42b535b998c12b179dc3df",
+        "android_client_info": {
+          "package_name": "com.ejemplo.purplechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240320695950-2ri0ku2km6vonbq4gbmqbk37m89l1njq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN1W6plF9PYJDcVZDuP7uGCx5mgntgj8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240320695950-2ri0ku2km6vonbq4gbmqbk37m89l1njq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/opc_GrupoMen_Muro"
+        android:icon="@android:drawable/stat_notify_chat"
+        android:title="Muro" />
+
+    <item
+        android:id="@+id/opc_GrupoMen_Encriptar"
+        android:icon="?attr/actionModeSelectAllDrawable"
+        android:title="Encriptar" />
+
+    <item
+        android:id="@+id/opc_GrupoMen_Participantes"
+        android:icon="?attr/actionModeCopyDrawable"
+        android:title="Participantes" />
+    <item
+        android:id="@+id/opc_GrupoMen_Equipos"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="Equipos" />
+
+</menu>

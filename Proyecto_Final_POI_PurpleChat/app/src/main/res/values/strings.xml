@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Purple Chat</string>
+    <string name="boton_Registrarme">Registrarme</string>
+    <string name="boton_IniciarSesion">Iniciar Sesión</string>
+    <string name="textView_Información">¡Gracias por Elegir Purple Chat!</string>
+
+    <string name="boton_Reg_Cancelar">Cancelar</string>
+    <string name="boton_Reg_Registrarme">Registrarme</string>
+    <string name="textView_Reg_Instrucciones">Favor De llenar Los Campos</string>
+    <string name="textView_Reg_Usuario">Usuario</string>
+    <string name="textView_Reg_Correo">Correo Electrónico</string>
+    <string name="textView_Reg_Contraseña">Contraseña</string>
+    <string name="textView_Reg_Información">¿Ya tienes una cuenta?</string>
+    <string name="textView_Reg_SelectorFoto">Selecciona Foto</string>
+
+
+    <string name="boton_IniSes_Cancelar">Cancelar</string>
+    <string name="boton_IniSes_IniciarSesion">Iniciar Sesión</string>
+    <string name="textView_IniSes_Instrucciones">¡Bienvenido De Vuelta!</string>
+    <string name="textView_IniSes_Correo">Correo Electrónico</string>
+    <string name="textView_IniSes_Contraseña">Contraseña</string>
+    <string name="textView_IniSes_Información">¿Aún no tienes una cuenta?</string>
+
+    <string name="textView_PagPrin_Chat">Chat</string>
+    <string name="textView_PagPrin_Grupos">Grupos</string>
+    <string name="textView_PagPrin_Tareas">Tareas</string>
+    <string name="textView_PagPrin_Recompensas">Recompensas</string>
+    <string name="textView_PagPrin_CerrarSesion">Cerrar Sesión</string>
+    <string name="textView_PagPrin_Bienvenido">¡Bienvenido de vuelta!</string>
+    <string name="textView_PagPrin_Usuario">Usuario</string>
+    <string name="textView_PagPrin_Estado">Estado De Conexión</string>
+
+    <string name="textView_LayUsNewMen_MensajePara">Mensaje para:</string>
+
+    <string name="plainText_ChatMen_Mensaje">Mensaje</string>
+    <string name="boton_ChatMen_Enviar">Enviar</string>
+
+    <string name="plainText_GrupoNuevoMen_Titulo">Crea nuevo grupo</string>
+    <string name="textView_GrupoNuevoMen_SeleccionaUsuario">Selecciona usuarios:</string>
+    <string name="button_GrupoNuevoMen_Crear">Crear</string>
+
+    <string name="textView_LayoutChatUltimosMensajes_Chats">Aún no hay mensajes</string>
+
+    <string name="textView_Participantes_Titulo">Contactos:</string>
+    <string name="textView_GrupoParticipantes_Titulo">Participantes:</string>
+    <string name="textView_EquipoParticipantes_Titulo">Participantes:</string>
+    <string name="textView_ChatParticipantes_Titulo">Participantes:</string>
+
+    <string name="plainText_EquipoNuevoMen_Titulo">Crea nuevo equipo</string>
+    <string name="textView_EquipoNuevoMen_SeleccionaUsuario">Selecciona usuarios:</string>
+    <string name="button_EquipoNuevoMen_Crear">Crear</string>
+    <string name="title_activity_mapa_view">MapaView</string>
+
+
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/calmdarya"
+    tools:context=".EquipoMuro">
+
+
+    <FrameLayout
+        android:id="@+id/contenedorEquipoMuro"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/calmdarya"
+    tools:context=".EquipoMuro">
+
+    <ImageButton
+        android:id="@+id/imageButton_EquipoMuro_FlechaRegresar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/left_arrow_alt_regular_240"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton_EquipoMuro_NuevoMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/guideline12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_rotate"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="70dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_EquipoMuro_UltimosMensajes"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/purple_danceTheNightAway"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline12" />
+
+    <TextView
+        android:id="@+id/textView_EquipoMuro_prueba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Muro Equipo"
+        android:textColor="@color/white_Wannabe"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline12"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton_EquipoMuro_NuevoMensaje"
+        app:layout_constraintStart_toEndOf="@+id/imageButton_EquipoMuro_FlechaRegresar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    </FrameLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationEquipoMuro"
+
+        android:layout_width="189dp"
+        android:layout_height="658dp"
+        android:layout_gravity="end"
+        android:background="@color/purple_danceTheNightAway"
+
+        app:itemIconSize="30dp"
+        app:itemIconTint="@color/white_Wannabe"
+        app:itemTextAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:itemTextColor="@color/white_Wannabe"
+        app:menu="@menu/menu_muro"
+        tools:layout_editor_absoluteY="1dp" />
+
+</androidx.drawerlayout.widget.DrawerLayout>
